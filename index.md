@@ -1,4 +1,5 @@
 ## Welcome to Lavla!
+[![Documentation Status](https://readthedocs.org/projects/lavla/badge/?version=latest)](http://lavla.readthedocs.io/en/latest/?badge=latest)
 Lavla is a simple web framework for Python.  You can create templates and more with this framework.
 
 #### Starting off with Lavla
