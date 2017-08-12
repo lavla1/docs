@@ -24,7 +24,7 @@ It will output this:
 ```
 Website Name : My Website
 ```
-But, if there is a folder you will have to run this code:
+But, if there is not a folder path(```C:/mywebsite``` in our case) you will have to run this code:
 ```
 from lavla import *
 page = lavla('My Website','page1','Page 1')
