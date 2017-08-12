@@ -24,3 +24,14 @@ It will output this:
 ```
 Website Name : My Website
 ```
+But, if there is a folder you will have to run this code:
+```
+from lavla import *
+page = lavla('My Website','page1','Page 1')
+page.source("<p>{0} : {1}</p>")
+page.new('page1',['C:','mywebsite'],['Website Name','{nm}'])
+```
+Which again, will output this:
+```
+Website Name : My Website
+```
